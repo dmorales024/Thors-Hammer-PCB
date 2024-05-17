@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/m1m1024/Desktop/bme290/oneShotBlinking/oneShotBlinking.kicad_sch</source>
+    <date>Thursday, February 09, 2023 at 03:07:42 PM</date>
+    <tool>Eeschema (6.0.10-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>One Shot Blinker</title>
+        <company>Dmitri Morales</company>
+        <rev>v1.0.0</rev>
+        <date>2023-02-02</date>
+        <source>oneShotBlinking.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Timer/" tstamps="/97700ca7-1ba7-4a1e-a034-15d9210c7a1f/">
+      <title_block>
+        <title>One-Shot Blinking Light</title>
+        <company>Dmitri Morales</company>
+        <rev>v1.0.0</rev>
+        <date>2023-02-02</date>
+        <source>untitled.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT101">
+      <value>6V</value>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05b3c7f5-d1b7-4da0-a0d5-65c5d5b7754b</tstamps>
+    </comp>
+    <comp ref="C101">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8970c3a-8f53-4c07-9498-8085c2567385</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd828a2a-078e-4a29-8561-ff44cebd8851</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>RevPol_PwrStatus</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>681034c8-f3ca-4716-afd5-53df0da01d64</tstamps>
+    </comp>
+    <comp ref="D102">
+      <value>LED_Filled</value>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4035096-776e-4399-9830-5705a9abf07d</tstamps>
+    </comp>
+    <comp ref="D103">
+      <value>LED_Filled</value>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a768fbd-8631-44c7-87d3-06ae3c605458</tstamps>
+    </comp>
+    <comp ref="H101">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef952775-45fa-46e1-9e25-707223421499</tstamps>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fb2eca9-b95d-45b9-b5f8-f3858caebac9</tstamps>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36edf58e-5236-4566-9579-e33d5f6817e0</tstamps>
+    </comp>
+    <comp ref="H104">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b246aacd-c8e4-43f5-9b47-75865bc44664</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>Push Button</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f4cf62a-d31f-4e42-b84c-e50efcd64d13</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>LED</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62c050b9-2795-49df-8c19-dfb94398eafc</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>Power Switch</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dc44f75-dcd5-4344-a9a6-f902ba7437eb</tstamps>
+    </comp>
+    <comp ref="J104">
+      <value>BATT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6eb8a549-1bcd-4b41-ab68-fe9e09e4becd</tstamps>
+    </comp>
+    <comp ref="J105">
+      <value>LED</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dddea95e-eb77-4272-b99b-b424570504c8</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Radial_Power_L16.1mm_W9.0mm_P7.37mm</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3eb8dcfd-4df2-4ef2-a7ed-e6bd7a7cdc93</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Radial_Power_L16.1mm_W9.0mm_P7.37mm</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5b152f8-1a47-4fd5-9ac2-0f4a1f5c7911</tstamps>
+    </comp>
+    <comp ref="SW101">
+      <value>SW_SPST</value>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ae04720-48e1-42c6-97bb-b74f380c89ae</tstamps>
+    </comp>
+    <comp ref="SW102">
+      <value>LED</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5314db48-49fc-4671-89d3-9df0ca1468f4</tstamps>
+    </comp>
+    <comp ref="TP101">
+      <value>VCC</value>
+      <footprint>TestPoint:TestPoint_Pad_D4.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>619623ee-b5b6-418a-ac26-5f036da2d852</tstamps>
+    </comp>
+    <comp ref="TP102">
+      <value>AstableOut</value>
+      <footprint>TestPoint:TestPoint_Pad_D4.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13f7905b-a0ae-4021-9fe6-1f4a582ee3f7</tstamps>
+    </comp>
+    <comp ref="TP103">
+      <value>MonoOut</value>
+      <footprint>TestPoint:TestPoint_Pad_D4.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f11dbed-c6ee-4006-9b4f-ae4fd10ca481</tstamps>
+    </comp>
+    <comp ref="TP104">
+      <value>LightOut</value>
+      <footprint>TestPoint:TestPoint_Pad_D4.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48dfcdab-2630-4ffc-836a-751b1476ab1c</tstamps>
+    </comp>
+    <comp ref="TP105">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D4.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95c8328e-3f43-455a-ab97-17d390fb28d1</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>LM7805_TO220</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</datasheet>
+      <libsource lib="Regulator_Linear" part="LM7805_TO220" description="Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8187e5ce-c21e-4a9a-92db-79aeff1bddbd</tstamps>
+    </comp>
+    <comp ref="U102">
+      <value>4081</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket_LongPads</footprint>
+      <datasheet>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf</datasheet>
+      <libsource lib="4xxx" part="4081" description="Quad And 2 inputs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b571815-e394-41d1-b15c-a03f31901b7f 9e16d214-45df-4491-9e82-7008199a9f56 3b6d297e-2318-49c1-b2f5-b181fe298fb8 3ced7fbc-261f-4ef4-88e4-a6907f434f07 1ad40413-72ed-43e5-b91b-0c0adb82928f</tstamps>
+    </comp>
+    <comp ref="U103">
+      <value>74LS04</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS04</datasheet>
+      <libsource lib="74xx" part="74LS04" description="Hex Inverter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="oneShotBlinking.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95948cd6-a73a-489c-a89b-3a9d36b41f36 89efff69-c239-438f-acbd-e9b8c883c9ac 800e3d17-c0b2-4a7f-939b-16b622d1a9ce 8a6b05fb-cea5-4c4b-b649-c94ee39e9d0d 971ffdf0-b096-403d-815d-7d04c04727b6 9451bbdd-e36b-4ac5-aa75-c422a3ad5a65 5f68ba09-83ec-4179-bcec-6efc670f2886</tstamps>
+    </comp>
+    <comp ref="C201">
+      <value>100n</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Timer"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <sheetpath names="/Timer/" tstamps="/97700ca7-1ba7-4a1e-a034-15d9210c7a1f/"/>
+      <tstamps>f8413b32-44fc-453d-9128-e8fb2dbdd67e</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>0.01u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Timer"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <sheetpath names="/Timer/" tstamps="/97700ca7-1ba7-4a1e-a034-15d9210c7a1f/"/>
+      <tstamps>0c854568-509c-4e63-84ad-8586bf8b1be3</tstamps>
+    </comp>
+    <comp ref="C203">
+      <value>0.01u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Timer"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <sheetpath names="/Timer/" tstamps="/97700ca7-1ba7-4a1e-a034-15d9210c7a1f/"/>
+      <tstamps>0069e1a9-b720-4b57-8297-db4b695347dc</tstamps>
+    </comp>
+    <comp ref="C204">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Timer"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <sheetpath names="/Timer/" tstamps="/97700ca7-1ba7-4a1e-a034-15d9210c7a1f/"/>
+      <tstamps>8459bf78-deb8-4483-8b91-0fdbea03222e</tstamps>
+    </comp>
+    <comp ref="C205">
+      <value>1u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Timer"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <sheetpath names="/Timer/" tstamps="/97700ca7-1ba7-4a1e-a034-15d9210c7a1f/"/>
+      <tstamps>8affd158-84e8-490f-8514-894ac3fda3d3</tstamps>
+    </comp>
+    <comp ref="R200">
+      <value>455k</value>
+      <footprint>Resistor_THT:R_Radial_Power_L16.1mm_W9.0mm_P7.37mm</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Timer"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <sheetpath names="/Timer/" tstamps="/97700ca7-1ba7-4a1e-a034-15d9210c7a1f/"/>
+      <tstamps>fdd3e9f4-adca-4576-ac7a-5f85e46de2cc</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>42.2k</value>
+      <footprint>Resistor_THT:R_Radial_Power_L16.1mm_W9.0mm_P7.37mm</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Timer"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <sheetpath names="/Timer/" tstamps="/97700ca7-1ba7-4a1e-a034-15d9210c7a1f/"/>
+      <tstamps>f9ca6dac-063f-4fc5-a953-eb2081002abe</tstamps>
+    </comp>
+    <comp ref="R203">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Radial_Power_L16.1mm_W9.0mm_P7.37mm</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Timer"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <sheetpath names="/Timer/" tstamps="/97700ca7-1ba7-4a1e-a034-15d9210c7a1f/"/>
+      <tstamps>9bece2b1-fd85-4992-aaab-52f7bbc41ad9</tstamps>
+    </comp>
+    <comp ref="R204">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Radial_Power_L16.1mm_W9.0mm_P7.37mm</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Timer"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <sheetpath names="/Timer/" tstamps="/97700ca7-1ba7-4a1e-a034-15d9210c7a1f/"/>
+      <tstamps>fc7a065d-899e-4efc-a9a6-c0738addb686</tstamps>
+    </comp>
+    <comp ref="RV200">
+      <value>0-100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer_US" description="Potentiometer, US symbol"/>
+      <property name="Sheetname" value="Timer"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <sheetpath names="/Timer/" tstamps="/97700ca7-1ba7-4a1e-a034-15d9210c7a1f/"/>
+      <tstamps>92cccae3-5054-422c-abeb-fe9e7d042b2f</tstamps>
+    </comp>
+    <comp ref="RV201">
+      <value>0-100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer_US" description="Potentiometer, US symbol"/>
+      <property name="Sheetname" value="Timer"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <sheetpath names="/Timer/" tstamps="/97700ca7-1ba7-4a1e-a034-15d9210c7a1f/"/>
+      <tstamps>0820f89f-643e-4c25-beef-1155a7f42e24</tstamps>
+    </comp>
+    <comp ref="U201">
+      <value>LM556</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm556.pdf</datasheet>
+      <libsource lib="Timer" part="LM556" description="Dual Timer, DIP-14/SOIC-14"/>
+      <property name="Sheetname" value="Timer"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <sheetpath names="/Timer/" tstamps="/97700ca7-1ba7-4a1e-a034-15d9210c7a1f/"/>
+      <tstamps>81b125f2-65d6-4bfe-bf8a-431e94f0ce78 2a2004a5-dffe-4b61-9861-741fa5ee7b87</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4xxx" part="4081">
+      <description>Quad And 2 inputs</description>
+      <docs>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf</docs>
+      <footprints>
+        <fp>DIP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4081</field>
+        <field name="Datasheet">http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="output"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="" type="input"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="output"/>
+        <pin num="11" name="" type="output"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS04">
+      <description>Hex Inverter</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS04</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SSOP?14*</fp>
+        <fp>TSSOP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS04</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="output"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="output"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="output"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_Probe">
+      <description>test point (alternative probe-style design)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Probe</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery">
+      <description>Multiple-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Filled">
+      <description>Light emitting diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Filled</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="NetTie_2">
+      <description>Net tie, 2 pins</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Net*Tie*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">NT</field>
+        <field name="Value">NetTie_2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_US">
+      <description>Potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM7805_TO220">
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
+      <docs>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805_TO220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="LM556">
+      <description>Dual Timer, DIP-14/SOIC-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm556.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM556</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm556.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIS" type="input"/>
+        <pin num="2" name="THR" type="input"/>
+        <pin num="3" name="CV" type="input"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="Q" type="output"/>
+        <pin num="6" name="TR" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="TR" type="input"/>
+        <pin num="9" name="Q" type="output"/>
+        <pin num="10" name="R" type="input"/>
+        <pin num="11" name="CV" type="input"/>
+        <pin num="12" name="THR" type="input"/>
+        <pin num="13" name="DIS" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4xxx">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//4xxx.kicad_sym</uri>
+    </library>
+    <library logical="74xx">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="Timer">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Timer.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+6V">
+      <node ref="BT101" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J104" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW101" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="2" name="/Button_Press">
+      <node ref="J101" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW102" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/Light_Out">
+      <node ref="D102" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP104" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U102" pin="3" pintype="output"/>
+      <node ref="U103" pin="1" pintype="input"/>
+    </net>
+    <net code="4" name="/Light_Out2">
+      <node ref="D103" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J105" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U103" pin="2" pintype="output"/>
+    </net>
+    <net code="5" name="/SW-to-D1">
+      <node ref="D101" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J103" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW101" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="6" name="/Timer/Astable_Output">
+      <node ref="R202" pin="1" pintype="passive"/>
+      <node ref="TP102" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U102" pin="2" pintype="input"/>
+      <node ref="U201" pin="9" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="7" name="/Timer/Astable_Trigger">
+      <node ref="C205" pin="1" pintype="passive"/>
+      <node ref="R202" pin="2" pintype="passive"/>
+      <node ref="R204" pin="1" pintype="passive"/>
+      <node ref="U201" pin="12" pinfunction="THR" pintype="input"/>
+      <node ref="U201" pin="8" pinfunction="TR" pintype="input"/>
+    </net>
+    <net code="8" name="/Timer/Monostable_Output">
+      <node ref="TP103" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U102" pin="1" pintype="input"/>
+      <node ref="U201" pin="5" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="9" name="/Timer/OneShot_Discharge">
+      <node ref="C204" pin="1" pintype="passive"/>
+      <node ref="RV200" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV200" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U201" pin="1" pinfunction="DIS" pintype="input"/>
+      <node ref="U201" pin="2" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="10" name="/Timer/OneShot_Trigger">
+      <node ref="R203" pin="2" pintype="passive"/>
+      <node ref="U201" pin="6" pinfunction="TR" pintype="input"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="BT101" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="C204" pin="2" pintype="passive"/>
+      <node ref="C205" pin="2" pintype="passive"/>
+      <node ref="J101" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J104" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+      <node ref="SW102" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP105" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U102" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U103" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U201" pin="7" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="12" name="Net-(C101-Pad1)">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="D101" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U101" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="13" name="Net-(C202-Pad1)">
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="U201" pin="3" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(C203-Pad1)">
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="U201" pin="11" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(D102-Pad1)">
+      <node ref="D102" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(R102-Pad1)">
+      <node ref="D103" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J105" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(R200-Pad2)">
+      <node ref="R200" pin="2" pintype="passive"/>
+      <node ref="RV200" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R204-Pad2)">
+      <node ref="R204" pin="2" pintype="passive"/>
+      <node ref="RV201" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="19" name="VCC">
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="R200" pin="1" pintype="passive"/>
+      <node ref="R203" pin="1" pintype="passive"/>
+      <node ref="RV201" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV201" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="TP101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="3" pinfunction="VO" pintype="power_out"/>
+      <node ref="U102" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U103" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U201" pin="10" pinfunction="R" pintype="input"/>
+      <node ref="U201" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U201" pin="4" pinfunction="R" pintype="input"/>
+    </net>
+    <net code="20" name="unconnected-(U102-Pad4)">
+      <node ref="U102" pin="4" pintype="output+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U102-Pad5)">
+      <node ref="U102" pin="5" pintype="input+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U102-Pad6)">
+      <node ref="U102" pin="6" pintype="input+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U102-Pad8)">
+      <node ref="U102" pin="8" pintype="input+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U102-Pad9)">
+      <node ref="U102" pin="9" pintype="input+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U102-Pad10)">
+      <node ref="U102" pin="10" pintype="output+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U102-Pad11)">
+      <node ref="U102" pin="11" pintype="output+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U102-Pad12)">
+      <node ref="U102" pin="12" pintype="input+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U102-Pad13)">
+      <node ref="U102" pin="13" pintype="input+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U103-Pad3)">
+      <node ref="U103" pin="3" pintype="input+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U103-Pad4)">
+      <node ref="U103" pin="4" pintype="output+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U103-Pad5)">
+      <node ref="U103" pin="5" pintype="input+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U103-Pad6)">
+      <node ref="U103" pin="6" pintype="output+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U103-Pad8)">
+      <node ref="U103" pin="8" pintype="output+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U103-Pad9)">
+      <node ref="U103" pin="9" pintype="input+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U103-Pad10)">
+      <node ref="U103" pin="10" pintype="output+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U103-Pad11)">
+      <node ref="U103" pin="11" pintype="input+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U103-Pad12)">
+      <node ref="U103" pin="12" pintype="output+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U103-Pad13)">
+      <node ref="U103" pin="13" pintype="input+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U201-Pad13)">
+      <node ref="U201" pin="13" pinfunction="DIS" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

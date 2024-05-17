@@ -1,0 +1,46 @@
+** Drc report for /Users/m1m1024/Desktop/bme290/oneShotBlinking/oneShotBlinking.kicad_pcb **
+** Created on 2023-02-18 14:05:38 **
+
+** Found 9 DRC violations **
+[clearance]: Clearance violation (netclass 'Power' clearance 0.8500 mm; actual 0.8400 mm)
+    Rule: netclass 'Power'; Severity: error
+    @(129.2225 mm, 101.6000 mm): Through hole pad 1 [+6V] of J103
+    @(129.2225 mm, 104.1400 mm): Through hole pad 2 [/SW-to-D1] of J103
+[clearance]: Clearance violation (netclass 'Power' clearance 0.8500 mm; actual 0.8400 mm)
+    Rule: netclass 'Power'; Severity: error
+    @(124.4600 mm, 101.6000 mm): Through hole pad 1 [+6V] of J104
+    @(124.4600 mm, 104.1400 mm): Through hole pad 2 [GND] of J104
+[clearance]: Clearance violation (netclass 'Default' clearance 0.8500 mm; actual 0.8400 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(144.7800 mm, 127.0000 mm): Through hole pad 1 [/Light_Out] of J102
+    @(144.7800 mm, 129.5400 mm): Through hole pad 2 [Net-(D102-Pad1)] of J102
+[clearance]: Clearance violation (netclass 'Power' clearance 0.8500 mm; actual 0.8400 mm)
+    Rule: netclass 'Power'; Severity: error
+    @(140.0175 mm, 96.8375 mm): Through hole pad 1 [/Button_Press] of J101
+    @(140.0175 mm, 99.3775 mm): Through hole pad 2 [GND] of J101
+[clearance]: Clearance violation (netclass 'Default' clearance 0.8500 mm; actual 0.8400 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(158.1150 mm, 137.1000 mm): Through hole pad 1 [/Light_Out2] of J105
+    @(155.5750 mm, 137.1000 mm): Through hole pad 2 [Net-(D103-Pad1)] of J105
+[clearance]: Clearance violation (netclass 'Power' clearance 0.8500 mm; actual 0.6350 mm)
+    Rule: netclass 'Power'; Severity: error
+    @(149.8600 mm, 109.2200 mm): Through hole pad 1 [Net-(C101-Pad1)] of U101
+    @(149.8600 mm, 106.6800 mm): Through hole pad 2 [GND] of U101
+[clearance]: Clearance violation (netclass 'Power' clearance 0.8500 mm; actual 0.6350 mm)
+    Rule: netclass 'Power'; Severity: error
+    @(149.8600 mm, 106.6800 mm): Through hole pad 2 [GND] of U101
+    @(149.8600 mm, 104.1400 mm): Through hole pad 3 [VCC] of U101
+[clearance]: Clearance violation (netclass 'Default' clearance 0.8500 mm; actual 0.7400 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(127.0000 mm, 109.2200 mm): Through hole pad 1 [Net-(C101-Pad1)] of D101
+    @(129.5400 mm, 109.2200 mm): Through hole pad 2 [/SW-to-D1] of D101
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(183.2150 mm, 80.8404 mm): Line on F.Silkscreen
+    @(191.0500 mm, 80.8200 mm): Line on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
